@@ -30,7 +30,7 @@ jobs:
           # WORKDIR
           script: |
             set -euo pipefail
-            cd /home/ecs-user/Media360-React
+            cd /home/ecs-user/old360Media
             echo "[INFO] Current dir: $(pwd)"
             # permission granting
             chmod +x ./deploy.sh
